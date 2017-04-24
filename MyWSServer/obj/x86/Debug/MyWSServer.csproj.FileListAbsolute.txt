@@ -3,3 +3,9 @@ c:\users\administrator.baewgatyxcwc0n2\documents\visual studio 2010\Projects\MyW
 c:\users\administrator.baewgatyxcwc0n2\documents\visual studio 2010\Projects\MyWSServer\MyWSServer\obj\x86\Debug\MyWSServer.exe
 c:\users\administrator.baewgatyxcwc0n2\documents\visual studio 2010\Projects\MyWSServer\MyWSServer\obj\x86\Debug\MyWSServer.pdb
 c:\users\administrator.baewgatyxcwc0n2\documents\visual studio 2010\Projects\MyWSServer\MyWSServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\obj\x86\Debug\MyWSServer.exe
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\obj\x86\Debug\MyWSServer.pdb
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\bin\Debug\MyWSServer.exe
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\bin\Debug\MyWSServer.pdb
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator.BAEWGATYXCWC0N2\WSServer\MyWSServer\obj\x86\Debug\MyWSServer.csprojResolveAssemblyReference.cache

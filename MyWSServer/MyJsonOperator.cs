@@ -14,29 +14,26 @@ namespace MyWSServer
     /// </summary>
     class MyJsonOperator
     {
+        /// <summary>
+        /// 将JSON字符串数据解析成自定义的数据格式。
+        /// </summary>
+        /// <param name="jsonStr"></param>
+        /// <returns></returns>
         public List<JsonData> Analyticaldata(string jsonStr)
         {
             List<JsonData> jsonList = new List<JsonData>();
 
             JsonTextReader reader = new JsonTextReader(new StringReader(jsonStr));
-            //while (reader.Read())
-            //{
-            //    bool valueIsNull = true;
-            //    if (reader.Value != null)
-            //    {
-            //        valueIsNull = false;
-            //        Console.WriteLine("Name: {0}, Value: {1}", reader.TokenType, reader.Value);
-            //    }
-            //    else
-            //    {
-            //        Console.WriteLine("Token: {0}", reader.TokenType);
-            //    }
-                                
-            //}
             jsonList = ReadJsonData(reader);
+            reader.Close();
             return jsonList;
         }
 
+        /// <summary>
+        /// 基于Newtonsoft.Json递归解析json数据，支持无限镶嵌
+        /// </summary>
+        /// <param name="reader">数据读取流</param>
+        /// <returns>包含Json数据的集合</returns>
         private List<JsonData> ReadJsonData(JsonTextReader reader)
         {
             List<JsonData> jsonList = null;

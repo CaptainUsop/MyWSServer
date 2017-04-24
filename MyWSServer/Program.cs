@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Fleck;
-using System.IO;
 
 namespace MyWSServer
 {
@@ -49,34 +48,6 @@ namespace MyWSServer
                     }
                     input = Console.ReadLine();
                 }
-                //var input = Console.ReadLine();
-                //while (input != "exit")
-                //{
-                //    try
-                //    {
-                //        if (input == "send")
-                //        {
-                //            //string filePath = System.IO.Directory.GetCurrentDirectory() + @"\data.txt";
-                //            string filePath = @"D:\data.txt";
-                //            FileStream fileStream = new FileStream(filePath, FileMode.Open);
-                //            StreamReader sr = new StreamReader(fileStream);
-                //            string str = sr.ReadToEnd();
-
-                //            foreach (var socket in allSockets.ToList())
-                //            {
-                //                socket.Send(str);
-                //            }
-                //            sr.Close();
-                //            fileStream.Close();
-                //        }
-                //    }
-                //    catch (Exception eee)
-                //    {
-                //        Console.WriteLine("[Send Json Error]:" + eee.Message);
-
-                //    }
-                //    input = Console.ReadLine();
-                //}
             }
             catch(Exception e)
             {
